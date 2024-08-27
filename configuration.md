@@ -24,7 +24,7 @@ bossbar_style: SOLID  # Style de la barre de boss```
 XP Values Section
 The xp_values section allows you to define rewards, XP, and effects for different blocks.
 
-```yaml
+
 xp_values:
   custom_blocks:my_custom_block:
     name: "Custom Block"
@@ -47,17 +47,17 @@ xp_values:
         TYPE: null   # Skip this drop by setting TYPE and DROP to null
         DROP: null
         chance: 0.0
-        message: null```
+        message: null
 
 Handling Null Values
 You can disable specific drops by setting both TYPE and DROP to null:
 
- ```yaml
+
      drop2:
         TYPE: null
         DROP: null
         chance: 0.0
-        message: null ```
+        message: null 
 
 Sound and Visual Effects:
 - soundeffectonmined: The sound effect that is played when the block is broken. Use standard Minecraft sound IDs.
