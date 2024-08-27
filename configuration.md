@@ -19,8 +19,7 @@ bossbar_message_format: "&a{job} XP: &b{jobsxp}, &aMoney: &b{money}, &aPoints: &
 
 # Apparence de la barre de boss
 bossbar_color: BLUE   # Couleur de la barre de boss
-bossbar_style: SOLID  # Style de la barre de boss
-```
+bossbar_style: SOLID  # Style de la barre de boss```
 
 XP Values Section
 The xp_values section allows you to define rewards, XP, and effects for different blocks.
@@ -52,6 +51,7 @@ xp_values:
 
 Handling Null Values
 You can disable specific drops by setting both TYPE and DROP to null:
+
  ```yaml
      drop2:
         TYPE: null
